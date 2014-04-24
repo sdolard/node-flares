@@ -1,0 +1,36 @@
+{
+  "name": "node-flares",
+  "version": "0.0.0",
+  "description": "Personnal data decoy",
+  "main": "lib/flares.js",
+  "bin": {
+    "flares": "bin/flares"
+  },
+  "scripts": {
+    "test": "grunt mochaTest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sdolard/node-flares.git"
+  },
+  "keywords": [
+    "flare",
+    "decoy"
+  ],
+  "author": "Sébastien Dolard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sdolard/node-flares/issues"
+  },
+  "devDependencies": {
+    "grunt-cli": "~0.1.13",
+    "grunt": "~0.4.4",
+    "grunt-jsdoc": "~0.5.4",
+    "grunt-mocha-test": "~0.10.2"
+  },
+  "dependencies": {
+    "commander": "~2.2.0",
+    "passport": "~0.2.0",
+    "passport-google": "~0.3.0"
+  }
+}
