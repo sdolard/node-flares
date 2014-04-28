@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "commander": "~2.2.0",
-    "passport": "~0.2.0",
-    "passport-google": "~0.3.0"
+    "phantomjs": "~1.9.7-4",
+    "phantom": "~0.6.0"
   }
 }
